@@ -1,0 +1,159 @@
+{
+  "questions": [
+    {
+      "question": "What is React.js primarily used for?",
+      "options": [
+        "Server-side scripting",
+        "Building user interfaces",
+        "Database management",
+        "Creating animations"
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is NOT a core concept in React?",
+      "options": ["Components", "Props", "State", "Cookies"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What is JSX in React?",
+      "options": [
+        "A JavaScript extension that allows writing HTML-like syntax",
+        "A styling library for React components",
+        "A data fetching method in React",
+        "A server-side rendering technique"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of setState() in React?",
+      "options": [
+        "To directly modify the component's state object.",
+        "To schedule an update to the component's state.",
+        "To retrieve the component's current state.",
+        "To delete a component's state."
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is used to pass data from a parent component to a child component in React?",
+      "options": ["State", "Props", "Redux", "Context"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of React Hooks?",
+      "options": [
+        "To replace class components entirely.",
+        "To allow functional components to use state and other React features.",
+        "To provide a new way to style React components.",
+        "To optimize the rendering performance of React applications."
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which lifecycle method is called after a component's output has been rendered to the DOM?",
+      "options": [
+        "componentWillMount()",
+        "componentDidMount()",
+        "componentWillUpdate()",
+        "componentDidUpdate()"
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the primary benefit of using React Fragments?",
+      "options": [
+        "To style multiple elements with a single CSS class.",
+        "To group a list of children without adding extra nodes to the DOM.",
+        "To optimize the re-rendering of a component's children.",
+        "To simplify the syntax for creating React components."
+      ],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "What does the useMemo hook do in React?",
+      "options": [
+        "It memoizes the result of a function, only recalculating when its dependencies change.",
+        "It memoizes the JSX structure of a component, preventing unnecessary re-renders.",
+        "It provides a way to manage global state in a React application.",
+        "It simplifies the creation of custom hooks."
+      ],
+      "correctOption": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of React's Context API?",
+      "options": [
+        "To manage the state of individual components.",
+        "To create reusable components.",
+        "To share data between components without having to pass props manually at every level.",
+        "To handle user input events."
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the primary use case for React Server Components?",
+      "options": [
+        "To handle client-side routing.",
+        "To improve performance by rendering components on the server.",
+        "To manage complex state logic.",
+        "To create reusable UI components."
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which of the following techniques is most effective for rendering very long lists in React?",
+      "options": [
+        "Using Array.map() to render all items at once.",
+        "Implementing code splitting with React.lazy.",
+        "Using virtualization (windowing) to render only visible items.",
+        "Using React.memo to prevent re-renders."
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of the useTransition hook in React?",
+      "options": [
+        "To manage animations and transitions between components.",
+        "To allow state updates to be non-blocking, improving UI responsiveness.",
+        "To simplify the creation of custom hooks.",
+        "To handle errors during component rendering."
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "Which of the following is a benefit of using code splitting in a React application?",
+      "options": [
+        "It reduces the complexity of component logic.",
+        "It improves initial load time by loading only necessary code.",
+        "It eliminates the need for state management libraries.",
+        "It simplifies the styling of React components."
+      ],
+      "correctOption": 1,
+      "points": 30
+    },
+    {
+      "question": "In the context of Concurrent Mode in React, what is suspense primarily used for?",
+      "options": [
+        "Handling errors and fallback UI during asynchronous operations.",
+        "Managing side effects in functional components.",
+        "Optimizing the rendering performance of React applications.",
+        "Implementing code splitting and lazy loading of components."
+      ],
+      "correctOption": 0,
+      "points": 40
+    }
+  ]
+}

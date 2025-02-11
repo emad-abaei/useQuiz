@@ -16,8 +16,13 @@ function Progress({
   return (
     <header className='progress'>
       <progress
+        role='progressbar'
         max={questionsCount}
         value={answer !== null ? index + 1 : index}
+        // Better accessibility
+        aria-valuenow={index + 1}
+        aria-valuemin={1}
+        aria-valuemax={questionsCount}
       />
 
       <p>

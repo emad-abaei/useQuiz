@@ -27,7 +27,10 @@ function FinishScreen({
         {pointsPercentage}%)
       </p>
       <p className='highscore'>High Score: {highscore} points</p>
-      <button className='btn btn-ui' onClick={handleClick}>
+      <button
+        className='btn btn-ui'
+        onClick={handleClick}
+        aria-label='Restart the quiz'>
         Restart Quiz
       </button>
     </div>

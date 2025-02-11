@@ -24,7 +24,7 @@ function Timer({ questionsCount, dispatch }: TimerProps) {
   }, [count]);
 
   return (
-    <div className='timer'>
+    <div className='timer' aria-live='polite'>
       {min < 10 ? "0" + min : min}:{sec < 10 ? "0" + sec : sec}
     </div>
   );

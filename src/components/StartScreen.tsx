@@ -15,7 +15,10 @@ function StartScreen({ questionCount, dispatch }: StartScreenProps) {
     <div className='start'>
       <h2>Welcome to the Quiz!</h2>
       <h3>{questionCount} questions to test your skill</h3>
-      <button className='btn btn-ui' onClick={handleClick}>
+      <button
+        className='btn btn-ui'
+        onClick={handleClick}
+        aria-label='Start the quiz'>
         Let's start
       </button>
     </div>

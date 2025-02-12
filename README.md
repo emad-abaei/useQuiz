@@ -57,9 +57,11 @@ npm run server
 5️⃣ Start the development server:
 npm run dev
 
-🏆 Contributing
+## 🏆 Contributing
+
 Contributions are welcome! Feel free to submit issues or pull requests.
 
-📜 License
+## 📜 License
+
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 This project is licensed under the MIT License.

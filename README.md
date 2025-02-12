@@ -36,6 +36,10 @@ useQuiz is a fast and interactive quiz application built with **React, TypeScrip
 
 🔗 [Live Demo](#) – _Coming soon! Stay tuned._
 
+## 🧪 Testing
+
+Tests are not implemented yet, but they will be added soon using **Vitest** and **React Testing Library** to ensure reliability and maintainability.
+
 ## 📂 Setup & Installation
 
 1️⃣ Clone the repository:

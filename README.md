@@ -47,7 +47,10 @@ cd useQuiz
 3️⃣ Install dependencies:
 npm install
 
-4️⃣ Start the development server:
+4️⃣ Start the json server:
+npm run server
+
+5️⃣ Start the development server:
 npm run dev
 
 🏆 Contributing

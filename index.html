@@ -2,22 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&family=Roboto+Slab:wght@200&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet" />
-
-    <title>useQuiz – Interactive React Quiz App</title>
     <meta
       name="description"
-      content="useQuiz is a React quiz app built with TypeScript and Vite. Features progress tracking, timer, and scoring system." />
+      content="useQuiz is a fast and interactive React quiz app built with TypeScript & Vite. It features a timer, progress tracking, and dynamic questions!" />
+    <meta
+      name="keywords"
+      content="quiz app, React quiz, TypeScript quiz, interactive quiz, Vite, online quiz" />
+    <meta name="author" content="Emad Abaei" />
+    <title>useQuiz | Interactive React Quiz App</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com"
+      as="fetch"
+      crossorigin="anonymous" />
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com"
+      as="fetch"
+      crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&family=Roboto+Slab:wght@200&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'" />
+    <meta property="og:title" content="useQuiz | Interactive React Quiz App" />
+    <meta
+      property="og:description"
+      content="useQuiz is a fast and interactive quiz app built with React, TypeScript & Vite. Features a timer, progress tracking, and dynamic questions!" />
+    <meta property="og:image" content="/preview.png" />
+    <meta property="og:url" content="https://usequiz-emadabaei.netlify.app/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="useQuiz | Interactive React Quiz App" />
+    <meta
+      name="twitter:description"
+      content="useQuiz is a fast and interactive quiz app built with React, TypeScript & Vite." />
+    <meta name="twitter:image" content="/preview.png" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/main.tsx" defer></script>
   </body>
 </html>

@@ -32,9 +32,9 @@ useQuiz is a fast and interactive quiz application built with **React, TypeScrip
 - 🎨 **Pure CSS** – Simple styling
 - 📡 **JSON Server** – Simulated backend for questions
 
-## 🎬 Demo
+## 🎬 Live Demo
 
-🔗 [Live Demo](#) – _Coming soon! Stay tuned._
+🔗 [Try useQuiz Now!](https:/usequiz-emadabaei.netlify.app)
 
 ## 🧪 Testing
 
@@ -56,6 +56,16 @@ npm run server
 
 5️⃣ Start the development server:
 npm run dev
+
+## 🙌 Credits
+
+This project was originally inspired by a course from **Jonas Schmedtmann**. While the core idea comes from the course, I have made several enhancements, including:
+
+- **Migrating from JavaScript to TypeScript** for better type safety and maintainability.
+- **Implementing a mobile-friendly design** to improve responsiveness on smaller screens.
+- **Refactoring and optimizing the codebase** for cleaner, more efficient development.
+
+These improvements make **useQuiz** a more robust and scalable movie search and watchlist application.
 
 ## 🏆 Contributing
 
